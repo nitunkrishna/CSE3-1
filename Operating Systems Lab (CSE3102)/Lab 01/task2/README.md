@@ -1,4 +1,4 @@
-# Single Thread Execution in C
+# Single Thread Execution
 
 ## Overview
 
