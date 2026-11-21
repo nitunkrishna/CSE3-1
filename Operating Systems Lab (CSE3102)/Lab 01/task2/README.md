@@ -41,9 +41,9 @@ int main()
 
 The following image shows the output of the program.
 
-\<p align="center">
-&#x20; \<img src="output.png" alt="Single Thread Execution Output" width="600">
-\</p>
+<p align="center">
+  <img src="output.png" alt="Program Output" width="600">
+</p>
 
 ## Compilation and Execution
 
