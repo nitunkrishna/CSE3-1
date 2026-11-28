@@ -13,14 +13,14 @@ int main()
     {
         printf("Child Process\n");
         printf("Child ID: %d\n", getpid());
-        printf("Parent ID: %d\n", getpid());
+        printf("Parent ID: %d\n", getppid());
     }
     else
     {
         wait(NULL);
         printf("Parent Process\n");
         printf("Parent ID: %d\n", getpid());
-        printf("Child ID: %d\n", getpid());
+        printf("Child ID: %d\n", pid());
     }
     printf("Process Creation Executed\n\n");
     return 0;
